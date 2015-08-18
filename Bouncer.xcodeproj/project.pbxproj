@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88691FA51B057F550074CA0A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88691FA41B057F550074CA0A /* Settings.bundle */; };
 		889FE90F1AF6BA6B00BBA49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FE90E1AF6BA6B00BBA49B /* AppDelegate.swift */; };
 		889FE9111AF6BA6B00BBA49B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FE9101AF6BA6B00BBA49B /* ViewController.swift */; };
 		889FE9141AF6BA6B00BBA49B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889FE9121AF6BA6B00BBA49B /* Main.storyboard */; };
 		889FE9161AF6BA6B00BBA49B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889FE9151AF6BA6B00BBA49B /* Images.xcassets */; };
 		889FE9191AF6BA6B00BBA49B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889FE9171AF6BA6B00BBA49B /* LaunchScreen.xib */; };
 		889FE9251AF6BA6B00BBA49B /* BouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FE9241AF6BA6B00BBA49B /* BouncerTests.swift */; };
+		889FE92F1AF6BAF800BBA49B /* BouncerBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FE92E1AF6BAF800BBA49B /* BouncerBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88691FA41B057F550074CA0A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		889FE9091AF6BA6B00BBA49B /* Bouncer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bouncer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		889FE90D1AF6BA6B00BBA49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889FE90E1AF6BA6B00BBA49B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		889FE91E1AF6BA6B00BBA49B /* BouncerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BouncerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		889FE9231AF6BA6B00BBA49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889FE9241AF6BA6B00BBA49B /* BouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncerTests.swift; sourceTree = "<group>"; };
+		889FE92E1AF6BAF800BBA49B /* BouncerBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncerBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				889FE90E1AF6BA6B00BBA49B /* AppDelegate.swift */,
+				88691FA41B057F550074CA0A /* Settings.bundle */,
+				889FE92E1AF6BAF800BBA49B /* BouncerBehavior.swift */,
 				889FE9101AF6BA6B00BBA49B /* ViewController.swift */,
 				889FE9121AF6BA6B00BBA49B /* Main.storyboard */,
-				889FE9151AF6BA6B00BBA49B /* Images.xcassets */,
-				889FE9171AF6BA6B00BBA49B /* LaunchScreen.xib */,
 				889FE90C1AF6BA6B00BBA49B /* Supporting Files */,
 			);
 			path = Bouncer;
@@ -90,6 +94,8 @@
 		889FE90C1AF6BA6B00BBA49B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				889FE9171AF6BA6B00BBA49B /* LaunchScreen.xib */,
+				889FE9151AF6BA6B00BBA49B /* Images.xcassets */,
 				889FE90D1AF6BA6B00BBA49B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					889FE9081AF6BA6B00BBA49B = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7P9362E76E;
 					};
 					889FE91D1AF6BA6B00BBA49B = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -192,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88691FA51B057F550074CA0A /* Settings.bundle in Resources */,
 				889FE9141AF6BA6B00BBA49B /* Main.storyboard in Resources */,
 				889FE9191AF6BA6B00BBA49B /* LaunchScreen.xib in Resources */,
 				889FE9161AF6BA6B00BBA49B /* Images.xcassets in Resources */,
@@ -214,6 +222,7 @@
 			files = (
 				889FE9111AF6BA6B00BBA49B /* ViewController.swift in Sources */,
 				889FE90F1AF6BA6B00BBA49B /* AppDelegate.swift in Sources */,
+				889FE92F1AF6BAF800BBA49B /* BouncerBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Bouncer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Bouncer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +422,7 @@
 				889FE92A1AF6BA6B00BBA49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		889FE92B1AF6BA6B00BBA49B /* Build configuration list for PBXNativeTarget "BouncerTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +431,7 @@
 				889FE92D1AF6BA6B00BBA49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
